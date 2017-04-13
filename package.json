@@ -1,0 +1,33 @@
+{
+  "name": "adonis-twilio",
+  "version": "0.0.1",
+  "description": "A service provider for twilio package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "twilio": "^2.11.1"
+  },
+  "devDependencies": {
+    "adonis-fold": "^3.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahsankhatri/adonis-twilio.git"
+  },
+  "engines": {
+    "node": ">=4.2.4"
+  },
+  "keywords": [
+    "sms",
+    "twilio",
+    "adonis"
+  ],
+  "author": "Ahsaan Yousuf <ahsankhatri1992@gmail.com> (http://ahsaan.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ahsankhatri/adonis-twilio/issues"
+  },
+  "homepage": "https://github.com/ahsankhatri/adonis-twilio#readme"
+}

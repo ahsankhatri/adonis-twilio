@@ -1,0 +1,17 @@
+'use strict'
+
+/*
+|--------------------------------------------------------------------------
+| Twilio Configuaration
+|--------------------------------------------------------------------------
+|
+| Here we define the configuration for twilio
+|
+*/
+
+const Env = use('Env')
+
+module.exports = {
+  accountSid: Env.get('TWILIO_ACCOUNT_SID', null),
+  authToken: Env.get('TWILIO_AUTH_TOKEN', null),
+}
