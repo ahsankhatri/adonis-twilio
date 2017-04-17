@@ -1,5 +1,9 @@
 # adonis-twilio
 
+[![Version](https://img.shields.io/npm/v/adonis-twilio.svg?style=flat)](https://www.npmjs.com/package/adonis-twilio)
+[![Downloads](https://img.shields.io/npm/dt/adonis-twilio.svg?style=flat)](https://www.npmjs.com/package/adonis-twilio)
+[![License](https://img.shields.io/npm/l/adonis-twilio.svg?style=flat)](https://www.npmjs.com/package/adonis-twilio)
+
 [Twilio](https://github.com/twilio/twilio-node) Provider for AdonisJs framework.
 
 ## Installation
