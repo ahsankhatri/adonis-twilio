@@ -55,7 +55,40 @@ Then, for generating a config file.
 
 ## Configuration
 
-Adonis Twilio configuration file located at `config/twilio.js`.
+Adonis Twilio configuration file located at `config/twilio.js` and set your environment variables in `.env` with following.
+```
+TWILIO_ACCOUNT_SID=
+TWILIO_AUTH_TOKEN=
+TWILIO_FROM=+15005550006
+```
+
+## Usage
+
+Load the module first
+```javascript
+const Twilio = use('Adonis/Addons/Twilio')
+```
+
+##### Send SMS
+```javascript
+Twilio.sendMessage('+14108675309', 'Hello from Node', function(err, response) {
+    console.log( err, response );
+}
+```
+
+##### Send MMS
+```javascript
+Twilio.sendMessage('+14108675309', 'Hello from Node', 'http://cdn.memegenerator.co/images/200x/42.jpg', function(err, response) {
+    console.log( err, response );
+}
+```
+
+##### Make a Call
+```javascript
+Twilio.makeCall('+14108675309', 'http://www.example.com/twiml.php', function(err, response) {
+    console.log( err, response );
+}
+```
 
 ## Changelog
 
